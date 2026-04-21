@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 { font-size: 1.4rem; }
+
+p { color: #666; font-size: 0.85rem; margin-bottom: 10px; }
+
+#filters {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+button:hover {
+  background: #eee;
+}
+
+button.active {
+  background: #333;
+  color: white;
+  border-color: #333;
+}
+
+.tooltip {
+  position: fixed;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  pointer-events: none;
+  line-height: 1.6;
+}
+
+.tooltip.hidden { display: none; }

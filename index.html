@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Teen Mental Health & Social Media</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>How Being on Social Media Affects Teens' Stress Levels</h1>
+  <p>Average stress level by age, grouped by platform.</p>
+
+  <div id="filters">
+    <button onclick="filterPlatform('All')">All</button>
+    <button onclick="filterPlatform('Instagram')">Instagram</button>
+    <button onclick="filterPlatform('TikTok')">TikTok</button>
+    <button onclick="filterPlatform('Both')">Both</button>
+  </div>
+
+  <div id="chart-container"></div>
+  <div id="tooltip" class="tooltip hidden"></div>
+
+  <script src="d3.v7.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
