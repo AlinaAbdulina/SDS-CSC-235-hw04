@@ -28,11 +28,11 @@ YES 3 pts: Meaningfully supports network analysis, geospatial analysis, visualiz
 
 YES 1 pt: Sketch 
 
-PART 2 pts: Two specific analysis tasks for testing
+YES 2 pts: Two specific analysis tasks for testing
 
-NO 2 pts: Notes on user testing
+YES 2 pts: Notes on user testing
 
-NO 1 pt: Reasonable adjustment in response to testing 
+YES 1 pt: Reasonable adjustment in response to testing 
 
 ### General:
 
@@ -46,4 +46,4 @@ YES 1 pt: Browser compiles code with no errors
 
 YES 1 pt: Interactive components execute fully and consistently with no errors
 
-__ Changelog: Completed `changelog.md` included with submission
+YES Changelog: Completed `changelog.md` included with submission
